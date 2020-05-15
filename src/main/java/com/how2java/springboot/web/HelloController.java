@@ -12,7 +12,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(Model m) throws Exception {
     	m.addAttribute("now", DateFormat.getDateTimeInstance().format(new Date()));
-        System.out.println("111111111");
+        System.out.println("11111111111");
     	if(true){
     		throw new Exception("some exception");
     	}
